@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{D860A7AF-C489-452C-B356-93D1E62B2C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParImpar", "ParImpar\ParImpar.csproj", "{EC0D18FF-5165-45C7-BC31-6E24E23ABF22}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC0D18FF-5165-45C7-BC31-6E24E23ABF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0D18FF-5165-45C7-BC31-6E24E23ABF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0D18FF-5165-45C7-BC31-6E24E23ABF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0D18FF-5165-45C7-BC31-6E24E23ABF22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC0D18FF-5165-45C7-BC31-6E24E23ABF22} = {D860A7AF-C489-452C-B356-93D1E62B2C1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C43050A-FA06-4DAA-959C-25DFBD75A72F}
